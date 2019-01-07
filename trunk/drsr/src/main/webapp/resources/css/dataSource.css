@@ -1,0 +1,48 @@
+.source-head{
+    padding: 0 33px;
+}
+.source-title{
+    height: 50px;
+    line-height: 50px;
+    padding: 0 33px;
+}
+.source-title span{
+    font-family: 'Arial Normal', 'Arial';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 28px;
+    color: #000000;
+}
+.source-title a{
+    display: inline-block;
+    height: 37px;
+    line-height: 37px;
+    text-align: center;
+    border-radius: 5px;
+    background-color: rgba(30, 159, 76, 1);
+    margin-left: 100px;
+    font-family: 'Arial Negreta', 'Arial Normal', 'Arial';
+    font-weight: 700;
+    font-style: normal;
+    font-size: 18px;
+    color: #FFFFFF;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 2px!important;
+}
+.source-table{
+    padding: 3px 33px;
+}
+#dataSourceList th{
+    background-color: #64aed9;
+    text-align: center;
+    font-family: 'Arial Negreta', 'Arial Normal', 'Arial';
+    font-weight: 700;
+    font-style: normal;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+#dataSourceList td{
+    text-align: center;
+    vertical-align: middle!important;
+}

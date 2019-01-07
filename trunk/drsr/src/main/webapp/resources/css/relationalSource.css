@@ -1,0 +1,106 @@
+table { border-collapse: collapse; border-spacing: 0; }
+.addMes, .editorMes { width: 200px; height: 38px; line-height: 38px; background-color: #78abcc; border-radius: 3px; border: none; color: #fff; font-size: 12px; }
+
+.window { background: #fff; margin: 0 auto; padding: 30px; border: 1px solid #e0e0e0; box-shadow: 0 0 5px #e0e0e0; position: fixed; top: 220px; left: 520px; }
+.window .addWindow { width: 200px; }
+.window .addWindow input { width: 200px; padding: 10px; height: 34px; font-size: 12px; box-sizing: border-box; border: 1px solid #e8f0f5; }
+.window .addWindow input::-webkit-input-placeholder { color: #999; }
+.window .addWindow input::-moz-placeholder, .window .addWindow input:-moz-placeholder { color: #999; }
+.window .addWindow input:-ms-input-placeholder { color: #999; }
+.window .time { width: 120px; margin: 0 auto; font-size: 12px; }
+.window .time select { -webkit-appearance: menulist !important; margin-right: 3px; width: 40px; display: inline-block; }
+.window h1 { font-size: 20px; color: #333; text-align: center; }
+.window .img { margin: 0 auto 5px; width: 50px; height: 48px; }
+.window .img img { width: 100%; }
+.window .line { font-size: 14px; color: #666; line-height: 24px; text-align: center; }
+.window .lineTwo { font-size: 14px; color: #ff6600; line-height: 24px; text-align: center; }
+.window .tips { margin-top: 6px; color: #ff6600; font-size: 12px; text-align: left; line-height: 18px; }
+.window .true { width: 160px; height: 35px; line-height: 35px; background-color: #78abcc; border-radius: 3px; border: none; color: #fff; font-size: 12px; margin: 10px auto; display: block; }
+.window .pTrue { width: 160px; height: 35px; line-height: 35px; background-color: #78abcc; border-radius: 3px; border: none; color: #fff; font-size: 12px; margin: 10px auto; display: block; }
+.window .noFail { width: 160px; height: 35px; line-height: 35px; background-color: #FF8800 ; border-radius: 3px; border: none; color: #fff; font-size: 12px; margin: 10px auto; display: block; }
+.window .fail { margin-top: 5px; font-size: 12px; color: #666666; height: 18px; text-align: left; line-height: 18px; padding-left: 20px; background: url("../../images/sms/error.png") 0 50% no-repeat; background-size: 18px 18px; }
+.window .success { margin-top: 5px; font-size: 12px; color: #666666; height: 20px; text-align: left; line-height: 20px; padding-left: 20px; background: url("../../images/sms/right.png") 0 50% no-repeat; background-size: 18px 18px; }
+.window .true2 { width: 160px; height: 35px; line-height: 35px; background-color: #78abcc; border-radius: 3px; border: none; color: #fff; font-size: 12px; margin: 10px auto; display: block; }
+
+.clock { width: 268px; }
+.clock .time { width: 250px; margin: 0 auto; padding-bottom: 10px; overflow: auto; border: 1px solid #e8f0f5; border-bottom: none; }
+.clock .time h1 { height: 48px; line-height: 48px; font-weight: bold; font-size: 18px; border-top-right-radius: 5px; border-top-left-radius: 5px; background-color: #ecf4f8; padding: 0; margin: 0; }
+.clock .time .timeTitle label { width: 50%; display: inline-block; text-align: center; font-size: 18px; }
+.clock .time .hour { float: left; width: 115px; cursor: pointer; max-height: 150px; overflow-y: scroll; box-sizing: border-box; margin-left: 10px; border: 1px solid #e8f0f5; }
+.clock .time .min { float: left; cursor: pointer; width: 115px; max-height: 150px; overflow-y: scroll; box-sizing: border-box; margin-right: 10px; border: 1px solid #e8f0f5; }
+.clock .time ul li { text-align: center; height: 30px; line-height: 30px; }
+.clock .time ul li.select { background-color: #ecf4f8; }
+.clock .bottom { width: 250px; margin: 0 auto; height: 30px; border: 1px solid #e8f0f5; }
+.clock .bottom .nowTime { height: 24px; width: 60px; display: block; text-align: center; font-weight: bold; margin-left: 3px; float: left; color: #333; font-size: 18px; line-height: 24px; border-radius: 5px; margin-top: 2px; border: 1px solid #e8f0f5; }
+.clock .bottom .btn { float: right; margin-right: 5px; }
+.clock .bottom .btn a { margin-top: 1px; margin-left: 2px; float: left; border: none; height: 28px; line-height: 28px; cursor: pointer; text-align: center; text-decoration: none; width: 40px; background-color: #ecf4f8; }
+.clock .bottom .btn a.clear { border-top-left-radius: 5px; border-bottom-left-radius: 5px; }
+.clock .bottom .btn a.sure { border-top-right-radius: 5px; border-bottom-right-radius: 5px; }
+.clock .bottom .btn a:hover, .clock .bottom .btn a:visited, .clock .bottom .btn a:link, .clock .bottom .btn a:active { color: #333; text-decoration: none; }
+
+.checkReason{color: red}
+.mask {position:fixed;top:0;left:0;z-index:1;width:100%;height:100%;background:#000;border:0;opacity:0.15;filter:alpha(opacity=15);}
+
+.addBomb {
+  width: 410px;
+  height: 250px;
+  position: absolute;
+  left: 40%;
+  top: 45%;
+  z-index: 999}
+.addBomb h2 {
+  height: 35px;
+  line-height: 35px;
+  background: #eaeaea;
+  font-size: 14px;
+  color: #333;
+  padding-left: 15px; }
+.addBomb .addBombInp {
+  height: 155px;
+  background: #c9c9c9;
+  padding: 30px 0 20px 50px; }
+.addBomb .addBombInp .addBombMa, .addBomb .addBombInp .addBombName {
+  height: 30px;
+  line-height: 30px;
+  margin-bottom: 20px; }
+.addBomb .addBombInp .addBombMa span, .addBomb .addBombInp .addBombName span {
+  color: #666;
+  font-size: 14px; }
+.addBomb .addBombInp .addBombMa input, .addBomb .addBombInp .addBombName input {
+  height: 30px;
+  border: #ddd;
+  border-radius: 4px;
+  width: 213px; }
+.addBomb .addBombInp .addBombButton a {
+  display: block;
+  width: 110px;
+  height: 35px;
+  line-height: 35px;
+  text-align: center;
+  border-radius: 5px;
+  color: #fff;
+  background: #78abcc;
+  float: left;
+  margin-right: 63px;
+  font-size: 16px;
+  margin-top: 12px; }
+.addBomb .addBombInp .addBombButton a:hover, .addBomb .addBombInp .addBombButton a:visited, .addBomb .addBombInp .addBombButton a:link, .addBomb .addBombInp .addBombButton a:active {
+  color: #fff;
+  text-decoration: none; }
+
+.relationTitle {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.longBtn {
+  display: inline-block;
+  width: 81px;
+  height: 23px;
+  line-height: 23px;
+  text-align: center;
+  color: #666;
+  border: 0;
+  cursor: pointer;
+  background: url(../img/backstageAllButton.png) -69px -72px no-repeat;
+}

@@ -1,0 +1,10 @@
+<sitemesh defaultdir="">
+    <mapping path="/*" decorator="/WEB-INF/decorators/admin.jsp"/>
+    <mapping path="/resources/*" exclue="true"/>
+    <mapping path="/global/*" exclue="true"/>
+    <mapping path="/" exclue="true"/>
+
+    <content-processor>
+        <tag-rule-bundle class="org.sitemesh.content.tagrules.html.DivExtractingTagRuleBundle"/>
+    </content-processor>
+</sitemesh>
